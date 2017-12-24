@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_searh"
+        android:icon="@drawable/ic_search"
+        android:orderInCategory="100"
+        android:title="Search in all system"
+        app:showAsAction="always" />
+    <item
+        android:title="Download"
+        android:id="@+id/loadUrl_btn"
+        android:icon="@drawable/ic_download"
+        android:orderInCategory="100"
+        app:showAsAction="always"/>
+    <item
+        android:title="Take photo"
+        android:id="@+id/camera_btn"
+        android:icon="@drawable/ic_camera"
+        android:orderInCategory="100"
+        app:showAsAction="always"/>
+
+</menu>
